@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "vercel --prod",
+    "github": "git add . && git commit -m 'Update' && git push origin main",
+    "all": "npm run github && npm run deploy"
+  }
+}
