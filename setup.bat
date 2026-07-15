@@ -1,0 +1,13 @@
+@echo off
+echo 🚀 INICIANDO CONFIGURAÇÃO...
+
+echo 📦 Instalando dependências...
+npm install
+
+echo 📦 Instalando Vercel...
+npm install -g vercel
+
+echo 📦 Rodando setup...
+bash deploy.sh
+
+pause
